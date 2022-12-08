@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_d1.mk
+    $(LOCAL_DIR)/cherish_d1.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_d1-eng \
-    xtended_d1-user \
-    xtended_d1-userdebug
+    cherish_d1-eng \
+    cherish_d1-user \
+    cherish_d1-userdebug
