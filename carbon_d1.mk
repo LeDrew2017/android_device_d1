@@ -37,13 +37,13 @@ TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := xtended_d1
+PRODUCT_NAME := carbon_d1
 PRODUCT_DEVICE := d1
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N970F
