@@ -36,6 +36,9 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
+## Fingerprint Animations
+EXTRA_UDFPS_ANIMATIONS := true
+
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
